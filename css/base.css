@@ -154,6 +154,13 @@ footer .copyrights h3{
 /*------------------------------------
 Media Query Start Here
 ------------------------------------*/
+/* Mini Media Query*/
+@media screen and (max-width: 350px){
+    footer .social-list li img{
+        width: 30px;
+        height: 30px;
+    }
+}
 /* Extra Small only*/
 @media screen and (min-width: 320px) and (max-width: 479px) {
     /*-----------------------------------
