@@ -1,0 +1,304 @@
+/*----------------------------------------------------------------------------------
+=================================Home Page css Start Here============================
+-----------------------------------------------------------------------------------*/
+
+/*----TopSlide Section Start Here----*/
+#topslide{
+    background-color: #31333e;
+    padding: 10px;
+}
+#topslide .row{
+    text-align: center;
+}
+#topslide .row h1{
+    color: #fff;
+    padding: 10px;
+    margin-bottom: 0;
+    font-size: 45px;
+}
+#topslide .column:last-child:not(:first-child), .columns:last-child:not(:first-child){
+    float: none;
+}
+#topslide .row .column{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#topslide .column a{
+    margin-left: -15px;
+    margin-top: 25px;
+}
+#topslide .column .devices{
+    position: relative;
+    bottom: -50px;
+}
+
+/*----Services Section Start Here----*/
+#Services{
+    padding: 30px 0;
+}
+
+#Services .row{
+    margin-top: 50px;
+}
+#Services .column{
+    text-align: center;
+}
+#Services .column h3{
+    color: #626262;
+    font-size: 30px;
+    font-family: 'PT Sans', sans-serif;
+}
+#Services .column p{
+    padding: 10px 0;
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+#Services .column a{
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #00aeff;
+}
+
+/*----Work Section Start Here----*/
+#Work{
+    background-color: #e2e7ed;
+    padding: 20px 0;
+}
+#Work h2{
+    color: #626262;
+    font-size: 30px;
+    font-family: 'PT Sans', sans-serif;
+}
+#Work img{
+    width: 300px;
+    height: 200px;
+    margin: 20px 0;
+}
+#Work .row:last-child{
+    text-align: center;
+    padding: 10px 0;
+}
+#Work .row a{
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #00aeff;
+}
+/*----Clients Section Start Here----*/
+#clients{
+    padding: 30px 0;
+}
+#clients .row{
+    display: flex;
+    justify-content: space-around;
+}
+
+/*------------------------------------
+Media Query Start Here
+------------------------------------*/
+/*Extra Small only */
+@media screen and (min-width: 320px) and (max-width: 480px) {
+/*----TopSlide Section Start Here----*/
+    #topslide .row h1{
+        font-size: 30px;
+    }
+
+    /*----Services Section Start Here----*/
+    #Services .column p{
+        padding: 10px 0;
+        width: 100%;
+        margin: 0 auto;
+        margin-bottom: 10px;
+    }
+    #Services .column:not(:last-child){
+        margin-bottom: 20px;
+    }
+    #Services .column a{
+        text-transform: uppercase;
+        font-weight: bold;
+        color: #00aeff;
+    }
+
+    /*----Work Section Start Here----*/
+    #Work h2{
+        text-align: center;
+    }
+    #Work .work-img{
+        text-align: center;
+    }
+    #Work .row:last-child{
+        text-align: center;
+        padding: 10px 0;
+    }
+    #Work .row a{
+        text-transform: uppercase;
+        font-weight: bold;
+        color: #00aeff;
+    }
+    /*----Clients Section Start Here----*/
+    #clients{
+        padding: 30px 0;
+    }
+    #clients .row{
+        display: flex;
+    }
+    #clients img{
+        width: 70px;
+        height: 50px;
+    }
+}
+
+/* Small only */
+@media screen and (min-width: 480px) and (max-width: 639px) {
+    /*----TopSlide Section Start Here----*/
+        #topslide .row h1{
+            font-size: 30px;
+        }
+
+        /*----Services Section Start Here----*/
+        #Services .column p{
+            padding: 10px 0;
+            width: 100%;
+            margin: 0 auto;
+            margin-bottom: 10px;
+        }
+        #Services .column:not(:last-child){
+            margin-bottom: 20px;
+        }
+        #Services .column a{
+            text-transform: uppercase;
+            font-weight: bold;
+            color: #00aeff;
+        }
+
+        /*----Work Section Start Here----*/
+        #Work h2{
+            text-align: center;
+        }
+        #Work .work-img{
+            text-align: center;
+        }
+        #Work .row:last-child{
+            text-align: center;
+            padding: 10px 0;
+        }
+        #Work .row a{
+            text-transform: uppercase;
+            font-weight: bold;
+            color: #00aeff;
+        }
+        /*----Clients Section Start Here----*/
+        #clients{
+            padding: 30px 0;
+        }
+        #clients .row{
+            display: flex;
+        }
+        #clients img{
+            width: 70px;
+            height: 50px;
+        }
+}
+
+/* Medium only */
+@media screen and (min-width: 640px) and (max-width: 767px) {
+    /*----TopSlide Section Start Here----*/
+        #topslide .row h1{
+            font-size: 30px;
+        }
+
+        /*----Services Section Start Here----*/
+        #Services .column:last-child:not(:first-child), .columns:last-child:not(:first-child){
+            float: none;
+        }
+        #Services .column p{
+            padding: 10px 0;
+            width: 100%;
+            margin: 0 auto;
+            margin-bottom: 10px;
+        }
+        #Services .column:not(:last-child){
+            margin-bottom: 20px;
+        }
+        #Services .column a{
+            text-transform: uppercase;
+            font-weight: bold;
+            color: #00aeff;
+        }
+
+        /*----Work Section Start Here----*/
+        #Work .column:last-child:not(:first-child), .columns:last-child:not(:first-child){
+            float: none;
+        }
+        #Work h2{
+            text-align: center;
+        }
+        #Work .work-img{
+            text-align: center;
+        }
+        #Work .row:last-child{
+            text-align: center;
+            padding: 10px 0;
+        }
+        #Work .row a{
+            text-transform: uppercase;
+            font-weight: bold;
+            color: #00aeff;
+        }
+        /*----Clients Section Start Here----*/
+        #clients{
+            padding: 30px 0;
+        }
+        #clients .row{
+            display: flex;
+        }
+        #clients img{
+            width: 70px;
+            height: 50px;
+        }
+}
+/* Medium only */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    /*----TopSlide Section Start Here----*/
+    /*#topslide .row{
+        text-align: left;
+    }*/
+    #topslide .row h1{
+        color: #fff;
+        padding: 10px;
+        margin-bottom: 0;
+        font-size: 35px;
+    }
+
+
+    /*----Services Section Start Here----*/
+    #Services .column:last-child:not(:first-child), .columns:last-child:not(:first-child){
+        float: none;
+    }
+
+    #Services .column:not(:last-child){
+        margin-bottom: 20px;
+    }
+
+    /*----Work Section Start Here----*/
+    #Work .column:last-child:not(:first-child), .columns:last-child:not(:first-child){
+        float: none;
+    }
+    #Work h2{
+        text-align: center;
+    }
+    #Work img{
+        width: 350px;
+    }
+    #Work .work-img{
+        text-align: center;
+    }
+}
+/* Large only */
+@media screen and (min-width: 1024px) and (max-width: 1199px) {
+    #Work h2{
+        padding: 0 20px;
+    }
+}

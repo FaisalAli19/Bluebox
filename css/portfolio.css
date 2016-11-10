@@ -1,0 +1,235 @@
+/*----------------------------------------------------------------------------------
+=============================Portfolio Page css Start Here==========================
+-----------------------------------------------------------------------------------*/
+.title-head .row h2{
+    margin-bottom: 0;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 45px ;
+    color: #626262;
+    padding-left: 20px;
+}
+/*----------Web Design----------*/
+#Web-design{
+    padding: 20px 0;
+    background-color: #908ef3;
+}
+#Web-design h2{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 30px ;
+    color: #fff;
+    padding-left: 20px;
+}
+#Web-design .row:nth-child(2){
+    padding: 20px 0;
+}
+#Web-design h3{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 20px ;
+    padding: 10px 0;
+}
+/*----------Icons----------*/
+#icons{
+    padding: 20px 0;
+    background-color: #58d99c;
+}
+#icons h2{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 30px ;
+    color: #fff;
+    padding-left: 20px;
+}
+#icons .row:nth-child(2){
+    padding: 20px 0;
+}
+#icons h3{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 20px ;
+    padding: 10px 0;
+}
+/*----------Illustrations----------*/
+#illustrations{
+    padding: 20px 0;
+    background-color: #f4776d;
+}
+#illustrations h2{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 30px ;
+    color: #fff;
+    padding-left: 20px;
+}
+#illustrations .row:nth-child(2){
+    padding: 20px 0;
+}
+#illustrations h3{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 20px ;
+    padding: 10px 0;
+}
+/*----------miscellaneous----------*/
+#miscellaneous{
+    padding: 20px 0;
+    background-color: #edca52;
+}
+#miscellaneous h2{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 30px ;
+    color: #fff;
+    padding-left: 20px;
+}
+#miscellaneous .row:nth-child(2){
+    padding: 20px 0;
+}
+#miscellaneous h3{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 20px ;
+    padding: 10px 0;
+}
+
+/*------------------------------------
+Media Query Start Here
+------------------------------------*/
+/* Extra Small only*/
+@media screen and (min-width: 320px) and (max-width: 479px) {
+    .title-head .row h2{
+        text-align: center;
+    }
+    /*----------Web Design----------*/
+    #Web-design h2{
+        text-align: center;
+    }
+    #Web-design h3{
+        text-align: center;
+    }
+    #Web-design p{
+        text-align: center;
+    }
+    /*----------Icons----------*/
+    #icons h2{
+        text-align: center;
+    }
+    #icons h3{
+        text-align: center;
+    }
+    #icons p{
+        text-align: center;
+    }
+    /*----------Illustrations----------*/
+    #illustrations h2{
+        text-align: center;
+    }
+    #illustrations h3{
+        text-align: center;
+    }
+    #illustrations p{
+        text-align: center;
+    }
+    /*----------miscellaneous----------*/
+    #miscellaneous{
+        text-align: center;
+    }
+    #miscellaneous h2{
+        text-align: center;
+    }
+    #miscellaneous h3{
+        text-align: center;
+    }
+    #miscellaneous p{
+        text-align: center;
+    }
+}
+
+/* Small only */
+@media screen and (min-width: 480px) and (max-width: 639px) {
+    .title-head .row h2{
+        text-align: center;
+    }
+    /*----------Web Design----------*/
+    #Web-design h2{
+        text-align: center;
+    }
+    #Web-design h3{
+        text-align: center;
+    }
+    #Web-design p{
+        text-align: center;
+    }
+    /*----------Icons----------*/
+    #icons h2{
+        text-align: center;
+    }
+    #icons h3{
+        text-align: center;
+    }
+    #icons p{
+        text-align: center;
+    }
+    /*----------Illustrations----------*/
+    #illustrations h2{
+        text-align: center;
+    }
+    #illustrations h3{
+        text-align: center;
+    }
+    #illustrations p{
+        text-align: center;
+    }
+    /*----------miscellaneous----------*/
+    #miscellaneous{
+        text-align: center;
+    }
+    #miscellaneous h2{
+        text-align: center;
+    }
+    #miscellaneous h3{
+        text-align: center;
+    }
+    #miscellaneous p{
+        text-align: center;
+    }
+}
+
+/* Medium only */
+@media screen and (min-width: 640px) and (max-width: 1023px) {
+    .title-head .row h2{
+        padding-left: 20px;
+    }
+    /*----------Web Design----------*/
+    #Web-design h2{
+        text-align: center;
+    }
+    /*----------Icons----------*/
+    #icons h2{
+        text-align: center;
+    }
+    /*----------Illustrations----------*/
+    #illustrations h2{
+        text-align: center;
+    }
+    /*----------miscellaneous----------*/
+    #miscellaneous h2{
+        text-align: center;
+    }
+}
+
+/* Large only */
+@media screen and (min-width: 1024px) and (max-width: 1199px) {
+    .title-head .row h2{
+        padding-left: 20px;
+    }
+    /*----------Web Design----------*/
+    #Web-design h2{
+        text-align: center;
+    }
+    /*----------Icons----------*/
+    #icons h2{
+        text-align: center;
+    }
+    /*----------Illustrations----------*/
+    #illustrations h2{
+        text-align: center;
+    }
+    /*----------miscellaneous----------*/
+    #miscellaneous h2{
+        text-align: center;
+    }
+}
